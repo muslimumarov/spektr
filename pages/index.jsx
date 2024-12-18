@@ -1,4 +1,5 @@
 import Navbar from '@/components/navbar/navbar'
+import Slider from '@/components/slider/slider'
 import { Box } from '@chakra-ui/react'
 import React from 'react'
 const index = () => {
@@ -6,6 +7,9 @@ const index = () => {
     <Box>
         <Box>
         <Navbar/>
+      </Box>
+      <Box>
+        <Slider/>
       </Box>
     </Box>
    )
